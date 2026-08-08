@@ -1,0 +1,34 @@
+class DefaultValues
+{	
+	byte b;
+	short s;
+	int i;
+	long l;
+	float f;
+	double d;
+	boolean bo;
+	char c;
+		
+	public void displayDetails()
+	{
+		System.out.println(b);
+		System.out.println(s);
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println(bo);
+		System.out.println(c);
+	}
+	
+}
+
+public class First {
+	public static void main(String[] args) {
+
+		new DefaultValues().displayDetails();
+		
+
+	}
+
+}
