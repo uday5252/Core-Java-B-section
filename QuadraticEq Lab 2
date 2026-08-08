@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+class QuadraticEquation
+{
+
+  double a = 3;
+  double b = 4;
+  double c = 1.5;
+
+	public void calculateDiscriminantAndRoots()
+	{	
+		double D = (b * b) - (4 * a * c);
+		
+		if(D > 0) {
+			double Root1 = (-b + Math.sqrt(D)) / (2 * a);
+			double Root2 = (-b - Math.sqrt(D)) / (2 * a);
+			System.out.println(Root1);
+			System.out.println(Root2);
+		}
+		else if(D == 0) {
+			
+			double Root = -b / 2 * a;
+			System.out.println(Root);
+		}
+		else if(D < 0) {
+			double RealPart = (-b / 2 * a);
+			double ImaginaryPart = Math.sqrt(-D) / (2 * a);
+			System.out.println(RealPart);
+			System.out.println(ImaginaryPart);
+		}
+	}
+	
+
+}
+
+public class Maths {
+
+	public static void main(String[] args) {
+	
+		new QuadraticEquation().calculateDiscriminantAndRoots();
+	}
+
+}
