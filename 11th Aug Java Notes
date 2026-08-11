@@ -1,0 +1,179 @@
+import java.util.Scanner;
+
+public class Fourth {
+
+	public static void main(String[] args) {
+		
+//		int orderPrice = 500;
+//		int deliveryCharge = 30;
+//		
+//		int totalCost = orderPrice + deliveryCharge;
+		
+//		int items = 10;
+//		int costPerItem = 400;
+//		
+//		int totalCost = items * costPerItem;
+		
+//		int totalBalance = 5000;
+//		int amountSpent = 500;
+//		
+//		int totalBalance = totalBalance - amountSpent;
+		
+//		int totalAmountSpent = 1000;
+//		int personsCount = 5;
+//		
+//		double amountPerHead = totalAmountSpent / personsCount;
+
+		
+//		int number = 10;
+//		System.out.println(number / 2);
+//		System.out.println(number % 2);
+		
+		
+//		int a = 10;
+//		int b = ++a;
+//		int c = a++;
+//		
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(c);		
+		
+		
+		
+		
+		
+//		int a = 10;
+//		int b = 20;
+//		int c = a--;
+//		int d = a--;
+//		int e = --b;
+		
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(c);
+//		System.out.println(d);
+//		System.out.println(e);
+		
+//		int a = 10;
+//		int b = 20;
+//		int c = 30;
+//		
+//		int d = a++ + b-- - c++ + ++c;
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(c);
+//		System.out.println(d);
+		
+		
+//		int age = 18;
+//		if(age <= 18)
+//		{
+//			System.out.println("D.L cannot be given");
+//		}
+//		else
+//		{
+//			System.out.println("D.L can be given");
+//		}
+		
+		
+//		int correctAtmPin = 5252;
+		
+//		System.out.println("Please enter the atm pin:");
+//		int enteredAtmPin = new Scanner(System.in).nextInt();
+//
+//		if(enteredAtmPin == correctAtmPin)
+//		{
+//			System.out.println("ATM pin is correct");
+//		}
+//		else
+//		{
+//			System.out.println("ATM pin is not correct");
+//		}
+		
+
+		
+		
+//		System.out.println("Enter the ticket status:");
+//		boolean hasTicket = new Scanner(System.in).nextBoolean();
+//		
+//		System.out.println("Enter you age:");
+//		int age = new Scanner(System.in).nextInt();
+//		
+//		if(hasTicket == true && age > 18)
+//		{
+//			System.out.println("Can watch movie!");
+//		}
+//		else
+//		{
+//			System.out.println("Cannot watch movie!");
+//		}
+		
+		
+		
+		
+		
+//		System.out.println("Do you have cash:");
+//		boolean cashStatus = new Scanner(System.in).nextBoolean();
+//		
+//		System.out.println("Do you have card:");
+//		boolean cardStatus = new Scanner(System.in).nextBoolean();
+//		
+//		if( cashStatus == true || cardStatus == true)
+//		{
+//			System.out.println("Payment can be done!");
+//		}
+//		else
+//		{
+//			System.out.println("Payment cannot be done!");
+//		}
+		
+		
+		
+		
+//		int age = 20;
+//		age %= 5;
+//		System.out.println(age);
+		
+		
+//		int age = 20;
+//		
+//		if(age > 18)
+//		{
+//			System.out.println("D.L can be given");
+//		}
+//		else
+//		{
+//			System.out.println("D.L cannot be given");
+//		}
+		
+		int age = 15;
+		String output = 
+				age > 18 ? "D.L can be given" : "D.L cannot be given";
+		
+		System.out.println(output);
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+	}
+
+}
