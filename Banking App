@@ -1,0 +1,83 @@
+import java.util.Scanner;
+
+
+class BankAccount{
+	
+	double initialBalance;
+	
+	public void bankOperation()
+	{
+		System.out.println("Type d-deposit, "
+				+ "w-withdraw, b-balance check");
+		
+		String option = new Scanner(System.in).next();
+		if(option.equals("d"))
+		{
+//			deposit operation
+			System.out.println("Enter the amount to be deposited!");
+			double enteredAmount = new Scanner(System.in).nextDouble();
+			double totalBalance = initialBalance + enteredAmount;
+			System.out.println(totalBalance);
+		}
+		else if(option.equals("w"))
+		{
+//			withdraw operation
+		}
+		else if(option.equals("b"))
+		{
+//			balance check
+		}
+		
+	}
+	
+	public void accountDetails()
+	{
+		System.out.println("Enter your name:");
+		String name = new Scanner(System.in).nextLine();
+		
+		System.out.println("Enter the age:");
+		int age = new Scanner(System.in).nextInt();
+		
+		System.out.println("Enter the mobile no:");
+		int mobileNumber = new Scanner(System.in).nextInt();
+		
+		System.out.println("Enter the city:");
+		String city = new Scanner(System.in).nextLine();
+		
+		System.out.println("Enter the amount to deposit:");
+		initialBalance = new Scanner(System.in).nextDouble();
+	}
+	
+	public void bankAccountCreation()
+	{
+		System.out.println("Welcome to State Bank of India!");
+		System.out.println(
+				"Which account you want to create? "
+				+ "Type s-savings account OR c-current account");
+		String optionChoosen = new Scanner(System.in).next();
+		if(optionChoosen.equals("s"))
+		{
+			accountDetails();
+		}
+		else if(optionChoosen.equals("c"))
+		{
+			accountDetails();
+		}
+		else
+		{
+//			invalid option
+		}
+	}
+	
+}
+
+public class Fifth {
+	public static void main(String[] args) {
+		
+		BankAccount ba = new BankAccount();
+		
+		ba.bankAccountCreation();
+		ba.bankOperation();
+		
+	}
+}
