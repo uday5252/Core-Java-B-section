@@ -1,0 +1,178 @@
+import java.util.Scanner;
+
+public class Sixth {
+	public static void main(String[] args) {
+
+//		loops
+		
+//		1) print Hello 10 times
+		
+//		for(int i = 1; i < 11; i++)
+//		{
+//			System.out.println("Hello");
+//		}
+		
+		
+		
+//		int correctAtmPin = 5252;
+//		
+//		for(int i = 1; i < 4; i++)
+//		{
+//			System.out.println("Please enter the ATM Pin:");
+//			int enteredAtmPin = new Scanner(System.in).nextInt();
+//			if(enteredAtmPin == correctAtmPin)
+//			{
+//				System.out.println("ATM Pin is correct");
+//				break;
+//			}
+//			else
+//			{
+//				System.out.println("ATM Pin is wrong");
+//			}
+//		}
+		
+		
+		
+		
+		
+		
+//		System.out.println("Feedback Form!");
+//		
+//		
+//		while(true)
+//		{
+//			System.out.println("Enter your name:-");
+//			String name = new Scanner(System.in).nextLine();
+//			
+//			System.out.println("Enter the roll no:-");
+//			int rollno = new Scanner(System.in).nextInt();
+//			
+//			System.out.println("Enter the rating:-");
+//			int rating = new Scanner(System.in).nextInt();
+//			
+//			System.out.println(name);
+//			System.out.println(rollno);
+//			System.out.println(rating);
+//			
+//			System.out.println("Do you want to continue: type y-yes"
+//					+ " or n-no");
+//			String option = new Scanner(System.in).next();
+//			if(option.equals("n"))
+//			{
+//				break;
+//			}
+//			
+//		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+}
+
+
+===============================
+
+class Student
+{
+	String name;
+	int age;
+	String city;
+}
+
+public class Seventh {
+	public static void main(String[] args) {
+
+//		i want to create 4 students
+		Student s1 = new Student();//1st student is ready
+		Student s2 = new Student();//2nd student is ready
+		Student s3 = new Student();//3rd student is ready
+		Student s4 = new Student();//4th student is ready
+		
+		s1.name = "Raju";
+		s1.age = 15;
+		s1.city = "Mumbai";
+		
+		s2.name = "Ramu";
+		s2.age = 14;
+		s2.city = "Delhi";
+		
+		s3.name = "Ram";
+		s3.age = 15;
+		s3.city = "Pune";
+		
+		s4.name = "Tim";
+		s4.age = 18;
+		s4.city = "Goa";
+		
+		
+		System.out.println(s1.name);
+		System.out.println(s1.age);
+		System.out.println(s1.city);
+		
+		
+		System.out.println(s2.name);
+		System.out.println(s2.age);
+		System.out.println(s2.city);
+		
+		System.out.println(s3.name);
+		System.out.println(s3.age);
+		System.out.println(s3.city);
+		
+		System.out.println(s4.name);
+		System.out.println(s4.age);
+		System.out.println(s4.city);
+		
+	}
+}
