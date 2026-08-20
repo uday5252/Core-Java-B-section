@@ -1,0 +1,146 @@
+
+// store the details of 300 books(title, cost, author)
+
+import java.util.Scanner;
+
+class Book{
+	String title;
+	static int cost = 300;
+	String author;
+	
+
+
+public Book(String title, 
+			String author)
+	{
+		this.title = title;
+		this.author = author;
+	}
+	
+	public void displayBookDetails()
+	{
+		System.out.println(title);
+		System.out.println(cost);
+		System.out.println(author);
+	}
+}
+
+
+public class Ninth {
+
+	public static void main(String[] args) {
+	
+		for(int i = 0; i < 5; i++)
+		{
+			System.out.println("Enter the book name");
+			String bookName = new Scanner(System.in).next();
+			
+			System.out.println("Enter the book author");
+			String bookAuthor = new Scanner(System.in).next();
+			
+			Book b = new Book(bookName, bookAuthor);
+			b.displayBookDetails();
+			
+		}
+		
+				
+}
+}
+
+=============================
+
+
+class BankAccountt
+{
+	String username;
+	double balance;
+	
+	public BankAccountt(String username, double balance)
+	{
+		this.username = username; 
+		this.balance = balance;
+	}
+	
+	public BankAccountt(String username)
+	{
+		this.username = username; 
+	}
+	
+	
+	
+	public void displayBankDetails()
+	{
+		System.out.println(username);
+		System.out.println(balance);
+		System.out.println("-------------------");
+	}
+}
+
+
+public class Tenth {
+	public static void main(String[] args) {
+		
+		BankAccountt ba1 = new BankAccountt("Raju", 1000);
+		BankAccountt ba2 = new BankAccountt("John", 3000);
+		BankAccountt ba3 = new BankAccountt("Steve");
+		
+		ba1.displayBankDetails();
+		ba2.displayBankDetails();
+		ba3.displayBankDetails();
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==============
+import java.util.ArrayList;
+
+class Calculator
+{
+	public void add(int num1, int num2)
+	{
+		System.out.println(num1 + num2);
+	}
+	
+	public void add(float a, int b)
+	{
+		System.out.println(a + b);
+	}
+	
+	public void add(int num1, int num2, int num3)
+	{
+		System.out.println(num1 + num2 + num3);
+	}
+}
+
+public class Twelve {
+
+	public static void main(String[] args) {
+		
+		Calculator c = new Calculator();
+		c.add(10, 20);
+		
+		System.out.println(10);
+		System.out.println(10.78);
+		System.out.printl
+		
+		
+	}
+
+}
