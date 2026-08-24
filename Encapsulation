@@ -1,0 +1,46 @@
+
+
+class BankAccountt
+{
+	private int accNo;
+	private double accBalance;
+	
+	public BankAccountt(int accNo, double accBalance)
+	{
+		this.accNo = accNo;
+		this.accBalance = accBalance;
+	}
+	
+//	SETTER
+	public void setBalance(double recievedBalance)
+	{
+		if(recievedBalance > 0)
+		{
+			accBalance = recievedBalance;
+		}
+		
+	}
+	
+//	GETTER
+	public void getBalance()
+	{
+		System.out.println(accBalance);
+	}
+}
+
+
+public class Fourth {
+
+	public static void main(String[] args) {
+	
+		BankAccountt account = new BankAccountt(1111, 5000.0);
+		account.setBalance(-10000);
+		
+		System.out.println(account.accNo);
+		account.getBalance();
+		
+		
+		
+		
+	}
+}
