@@ -1,17 +1,10 @@
 
-
-class BankAccountt
+class BankAccount
 {
-	private int accNo;
+	int accNo;
 	private double accBalance;
 	
-	public BankAccountt(int accNo, double accBalance)
-	{
-		this.accNo = accNo;
-		this.accBalance = accBalance;
-	}
-	
-//	SETTER
+	// SETTER
 	public void setBalance(double recievedBalance)
 	{
 		if(recievedBalance > 0)
@@ -21,23 +14,28 @@ class BankAccountt
 		
 	}
 	
-//	GETTER
+	// GETTER
 	public void getBalance()
 	{
 		System.out.println(accBalance);
 	}
+	
 }
 
 
-public class Fourth {
-
+public class Encapsulation {
 	public static void main(String[] args) {
-	
-		BankAccountt account = new BankAccountt(1111, 5000.0);
-		account.setBalance(-10000);
+		
+		BankAccount account = new BankAccount();
+		
+		account.accNo = 1111;
+		account.setBalance(-6000);
 		
 		System.out.println(account.accNo);
 		account.getBalance();
+		
+		
+		
 		
 		
 		
