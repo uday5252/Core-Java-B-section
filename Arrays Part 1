@@ -1,0 +1,88 @@
+import java.util.Scanner;
+
+public class First {
+
+	public static void main(String[] args) {
+		
+//		store the marks of a student(Raju)
+//		6 subjects
+		
+//		int marks[] = new int[6];
+//		
+//		marks[0] = 45;
+//		marks[1] = 55;
+//		marks[2] = 65;
+//		marks[3] = 75;
+//		marks[4] = 85;
+//		marks[5] = 78;
+//	
+////		for loop ==> when u know how many time
+////		u want to iterate
+//		
+//		for(int i = 0; i < 6; i++)
+//		{
+//			System.out.println(marks[i]);
+//		}
+//		
+		
+//		========================
+		
+//		store the names of 4 students
+		
+//		String names[] = { "Raju", "Ramu", "Rani", "John" };
+		
+//		store the 6 marks 
+		
+//		int marks[] = { 90, 91, 92, 93, 89, 80 };
+//		
+//		for(int i = 0; i < 6; i++)
+//		{
+//			System.out.println(marks[i]);
+//		}
+		
+		
+		
+		
+		
+		
+//		=======================================
+		
+		
+		
+		
+//		Write a program to store the marks scored
+//		by Raju in 5 subjects
+		
+//		int marks[] = new int[5];
+//		
+//		System.out.println("Enter the 1st subject mark:");
+//		
+//		Scanner s = new Scanner(System.in);
+//		
+//		marks[0] = s.nextInt();
+//		
+		
+//		============================================
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
