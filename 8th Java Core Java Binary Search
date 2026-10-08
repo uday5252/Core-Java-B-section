@@ -1,0 +1,46 @@
+
+public class BinarySearch {
+
+	public static void main(String[] args) {
+		
+		int nums[] = { 1, 20, 30, 40, 50, 60, 70, 80, 90 };
+		
+		int left = 0;
+		
+		int right = nums.length - 1;
+		
+		int ele = 700;
+		
+		int mid = (left + right) / 2;
+		
+		boolean status = false;
+				
+		while(left <= right) {
+			if(ele > nums[mid]) {
+				left = mid + 1;
+				mid = (left + right) / 2;
+			}
+			else if(ele < nums[mid])
+			{
+				right = mid - 1;
+				mid = (left + right) / 2;
+			}
+			else if(ele == nums[mid])
+			{
+				status = true;
+				System.out.println("Element is found!");
+				break;
+			}
+		}
+		
+		
+		
+		if(status == false)
+		{
+			System.out.println("Element is not found!");
+		}
+		
+
+	}
+
+}
